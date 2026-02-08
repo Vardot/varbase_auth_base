@@ -1,0 +1,6 @@
+name: Varbase Auth Base
+description: A base recipe to install and configure Varbase Social Single Sign-On with default social authentication modules and configurations.
+type: Varbase Auth
+install:
+  - social_auth
+  - social_auth_google

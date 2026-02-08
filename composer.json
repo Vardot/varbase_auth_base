@@ -1,0 +1,28 @@
+{
+  "name": "drupal/varbase_auth_base",
+  "description": "A base recipe to install and configure Varbase Social Single Sign-On with default social authentication modules and configurations.",
+  "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe", "Auth", "Social Auth", "Social Login", "Single Sign-On"],
+  "type": "drupal-recipe",
+  "notification-url": "https://packages.drupal.org/8/downloads",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Vardot",
+      "homepage": "https://www.drupal.org/vardot",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/varbase_auth_base",
+    "source": "http://cgit.drupalcode.org/varbase_auth_base"
+  },
+  "require": {
+    "drupal/core": "~11.3.0",
+    "drupal/social_api": "~4.1.0",
+    "drupal/social_auth": "~4.2.0",
+    "drupal/social_auth_google": "~4",
+    "drupal/social_auth_facebook": "~4",
+    "drupal/social_auth_linkedin": "~4"
+  },
+  "version": "1.0.x-dev"
+}
