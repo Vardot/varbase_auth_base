@@ -2,7 +2,7 @@
 
 A base recipe to install and configure Varbase Social Single Sign-On with default social authentication modules and configurations.
 
-This recipe provides social authentication functionality, allowing users to log in using existing information from social networking services such as Google, Facebook, LinkedIn, and Twitter.
+This recipe provides social authentication functionality, allowing users to log in using existing information from social networking services such as Google, Facebook, LinkedIn, and X-Twitter.
 
 ## Features
 
@@ -18,18 +18,18 @@ Add the recipe using composer:
 composer require drupal/varbase_auth_base:~1.0.0
 ```
 
-Change directory to `/web` or `/docroot`
+Change directory to `/web`
 
 Run the Drupal recipe bash script:
 ```
-bash core/scripts/drupal recipe recipes/contrib/varbase_auth_base
+bash core/scripts/drupal recipe recipes/varbase_auth_base
 ```
 
 or
 
 Run the Drush recipe command:
 ```
-drush recipe recipes/contrib/varbase_auth_base
+ddev drush recipe ../recipes/varbase_auth_base
 ```
 
 ## Use With [Varbase](https://www.drupal.org/project/varbase) Distribution

@@ -4,3 +4,4 @@ type: Varbase Auth
 install:
   - social_auth
   - social_auth_google
+  - varbase_auth
