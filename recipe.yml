@@ -5,3 +5,8 @@ install:
   - social_auth
   - social_auth_google
   - varbase_auth
+config:
+  actions:
+    user.role.site_admin:
+      grantPermissions:
+        - 'administer social auth profiles'
