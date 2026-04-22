@@ -2,14 +2,10 @@ langcode: en
 status: true
 dependencies:
   module:
-    - block_class
     - social_auth
     - system
   theme:
     - gin
-third_party_settings:
-  block_class:
-    classes: ""
 id: gin_socialauthlogin
 theme: gin
 region: content
