@@ -1,3 +1,5 @@
+[![Varbase](https://raw.githubusercontent.com/Vardot/varbase/11.0.x/images/varbase-logo.png)](https://www.drupal.org/project/varbase)
+
 # Varbase Auth Base
 
 A base recipe to install and configure Varbase Social Single Sign-On with default social authentication modules and configurations.
