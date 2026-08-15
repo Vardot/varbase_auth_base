@@ -23,7 +23,7 @@
     "drupal/social_auth_google": "~4",
     "drupal/social_auth_facebook": "~4",
     "drupal/social_auth_linkedin": "~4",
-    "drupal/varbase_auth": "11.0.x-dev"
+    "drupal/varbase_auth": "~11.0.0"
   },
-  "version": "1.0.x-dev"
+  "version": "1.0.0-rc1"
 }
