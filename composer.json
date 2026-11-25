@@ -25,5 +25,5 @@
     "drupal/social_auth_linkedin": "^4",
     "drupal/varbase_auth": "^11.0.0"
   },
-  "version": "1.0.1"
+  "version": "1.0.0"
 }
